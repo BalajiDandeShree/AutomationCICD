@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-27T09:40:52 IST" name="Suite" finished-at="2024-04-27T09:41:21 IST" duration-ms="28783">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrroValidationTest.LoginErrorValidation()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" name="LoginErrorValidation" class="BalajiSoft.SaleniumDesign.tests.ErrroValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" name="submitOrder" class="BalajiSoft.SaleniumDesign.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-04-27T09:40:52 IST" name="Errro Validation Test" finished-at="2024-04-27T09:41:20 IST" duration-ms="28057">
+      <class name="BalajiSoft.SaleniumDesign.tests.ErrroValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-04-27T09:40:52 IST" name="launchApplication" finished-at="2024-04-27T09:41:00 IST" duration-ms="8084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-04-27T09:41:00 IST" name="LoginErrorValidation" finished-at="2024-04-27T09:41:00 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-04-27T09:41:00 IST" name="tearDown" finished-at="2024-04-27T09:41:01 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-04-27T09:41:01 IST" name="launchApplication" finished-at="2024-04-27T09:41:04 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-04-27T09:41:04 IST" name="ProductErrorValidation" finished-at="2024-04-27T09:41:20 IST" duration-ms="15799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-04-27T09:41:20 IST" name="tearDown" finished-at="2024-04-27T09:41:20 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BalajiSoft.SaleniumDesign.tests.ErrroValidationTest -->
+    </test> <!-- Errro Validation Test -->
+    <test started-at="2024-04-27T09:40:52 IST" name="Submit Order" finished-at="2024-04-27T09:41:21 IST" duration-ms="28783">
+      <class name="BalajiSoft.SaleniumDesign.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:40:52 IST" name="launchApplication" finished-at="2024-04-27T09:40:59 IST" duration-ms="6426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:40:59 IST" name="submitOrder" data-provider="getData" finished-at="2024-04-27T09:41:07 IST" duration-ms="8667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Shree@1234, product=ZARA COAT 3, email=shreeganesh@abc.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:41:07 IST" name="tearDown" finished-at="2024-04-27T09:41:07 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:41:07 IST" name="launchApplication" finished-at="2024-04-27T09:41:11 IST" duration-ms="3775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:41:11 IST" name="submitOrder" data-provider="getData" finished-at="2024-04-27T09:41:18 IST" duration-ms="6535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Shree@1234, product=ADIDAS ORIGINAL, email=shreeganesh@abc.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:41:18 IST" name="tearDown" finished-at="2024-04-27T09:41:18 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:41:18 IST" name="launchApplication" finished-at="2024-04-27T09:41:20 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:41:20 IST" name="OrderHistoryTest" finished-at="2024-04-27T09:41:21 IST" depends-on-methods="BalajiSoft.SaleniumDesign.tests.SubmitOrderTest.submitOrder" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" started-at="2024-04-27T09:41:21 IST" name="tearDown" finished-at="2024-04-27T09:41:21 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BalajiSoft.SaleniumDesign.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>
